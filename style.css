@@ -1,3 +1,138 @@
+/* Estilos para dispositivos móviles */
+@media (max-width: 480px) {
+  /* Agrega estilos específicos para pantallas con un ancho máximo de 480px */
+  /* Por ejemplo, puedes hacer que los elementos ocupen todo el ancho de la pantalla */
+  body {
+    padding: 10px;  /*40%+ en font size de este valor*/
+  }
+  .articulo {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para tabletas y pantallas más grandes */
+@media (min-width: 481px) {
+  /* Agrega estilos específicos para pantallas con un ancho mínimo de 481px */
+  /* Aquí puedes ajustar el diseño y tamaño de los elementos según sea necesario */
+  body {
+    padding: 20px;
+  }
+  .articulo {
+    font-size: 16px;
+  }
+}
+
+
+/* Estilos generales de pantallas de escritorio*/
+
+/* Estilos para pantallas de escritorio */
+@media (min-width: 1920px) {
+  /* Agrega estilos específicos para pantallas con un ancho mínimo de 1920px */
+  /* Aquí puedes ajustar el diseño y tamaño de los elementos según sea necesario */
+  body {
+      padding: 40px;
+  }
+
+  .articulo {
+      font-size: 56px;
+  }
+}
+@media (min-width: 1921px) {
+  /* Agrega estilos específicos para pantallas con un ancho mínimo de 1920px */
+  /* Aquí puedes ajustar el diseño y tamaño de los elementos según sea necesario */
+  body {
+      padding: 80px;
+  }
+
+  .articulo {
+      font-size: 58px;
+  }
+}
+
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1440px) {
+  /* Agrega estilos específicos para pantallas con un ancho mínimo de 1440px */
+  /* Puedes ajustar los estilos según sea necesario */
+  body {
+      padding: 30px;
+  }
+
+  .articulo {
+      font-size: 42px;
+  }
+}
+/* Estilos para pantallas grandes */
+@media (min-width: 1441px) {
+  /* Agrega estilos específicos para pantallas con un ancho mínimo de 1440px */
+  /* Puedes ajustar los estilos según sea necesario */
+  body {
+      padding: 60px;
+  }
+
+  .articulo {
+      font-size: 48px;
+  }
+}
+
+
+/* Estilos para pantallas medianas */
+@media (min-width: 1024px) {
+  /* Agrega estilos específicos para pantallas con un ancho mínimo de 1024px */
+  /* Puedes ajustar los estilos según sea necesario */
+  body {
+      padding: 21px;
+  }
+
+  .articulo {
+      font-size: 29px;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 1025px) {
+  /* Agrega estilos específicos para pantallas con un ancho mínimo de 1024px */
+  /* Puedes ajustar los estilos según sea necesario */
+  body {
+      padding: 42px;
+  }
+
+  .articulo {
+      font-size: 31px;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (min-width: 768px) {
+  /* Agrega estilos específicos para pantallas con un ancho mínimo de 768px */
+  /* Puedes ajustar los estilos según sea necesario */
+  body {
+      padding: 20px;
+  }
+
+  .articulo {
+      font-size: 24px;
+  }
+}
+
+/* Estilos para pantallas móviles */
+@media (max-width: 767px) {
+  /* Agrega estilos específicos para pantallas con un ancho máximo de 767px */
+  /* Puedes ocultar o modificar elementos para mejorar la experiencia móvil */
+  body {
+      padding: 10px;
+  }
+
+  .articulo {
+      font-size: 16px;
+  }
+}
+
+
+
+
+
+
 html,body{
     display: grid;
     height: 100%;
