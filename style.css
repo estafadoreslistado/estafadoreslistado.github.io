@@ -140,6 +140,31 @@ html,body{
     place-items: center;
   }
 
+.button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px; /* Ajusta la posición horizontal según tus necesidades */
+        z-index: 9999; /* Asegura que los botones se superpongan a otros elementos de la página */
+    }
+
+    .button:nth-child(1) {
+
+      bottom: 10px; /* Ajusta la posición vertical del primer botón */
+  }
+
+  .button:nth-child(2) {
+    bottom: 80px; /* Ajusta la posición vertical del segundo botón */
+  }
+
+  .button:nth-child(3) {
+    bottom: 150px; /* Ajusta la posición vertical del tercer botón */
+  }
+
+
+
+
+
+
   .wrapper .button{
     display: inline-block;
     height: 60px;
